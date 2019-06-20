@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Python27;C:\Python27\Scripts;C:\Python37;C:\Python37\Scripts;C:\Program Files\Git\cmd\;C:\Program Files\Git\bin\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Supramin\Anaconda2;C:\Users\Supramin\Anaconda2\Library\mingw-w64\bin;C:\Users\Supramin\Anaconda2\Library\usr\bin;C:\Users\Supramin\Anaconda2\Library\bin;C:\Users\Supramin\Anaconda2\Scripts;C:\Users\Supramin\AppData\Roaming\npm;C:\Users\Supramin\AppData\Local\Yarn\bin;C:\Program Files (x86)\sqlite-tools-win32-x86-3270200;C:\Users\Supramin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\heroku\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.25.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+
+npm manifest: 
+  {
+    "name": "scoreboard",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "webpack",
+      "start": "webpack-dev-server --progress --inline --hot"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "react": "^15.3.2",
+      "react-dom": "^15.3.2"
+    },
+    "devDependencies": {
+      "babel-core": "^6.11.4",
+      "babel-loader": "^6.2.4",
+      "babel-preset-es2015": "^6.9.0",
+      "babel-preset-react": "^6.11.1",
+      "css-loader": "^0.23.1",
+      "react-hot-loader": "^1.3.0",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.13.1",
+      "webpack-dev-server": "^1.14.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
